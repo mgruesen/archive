@@ -1,0 +1,1 @@
+./nbody -o 0.01 < ../book/data/tab512 | awk '{print $2 " " $3}' > out512.dat

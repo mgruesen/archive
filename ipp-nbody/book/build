@@ -1,0 +1,2 @@
+#!/bin/bash
+g++-4.8 -O -std=c++11 -o serial serial.cpp

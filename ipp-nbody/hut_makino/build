@@ -1,0 +1,1 @@
+g++ nbody_sh1.C -o nbody
