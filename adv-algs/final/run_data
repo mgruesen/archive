@@ -1,0 +1,23 @@
+#!/bin/bash
+echo "running multiply..."
+i=0
+size=128
+rm mult_out.dat
+rm trans_out.dat
+while [ $i -lt 5 ]
+do
+  build/eigen_decomp -m $size >> mult_out.dat 
+  size=$(( $size * 2 ))
+  i=$(( $i + 1 ))
+done
+echo "done!"
+i=0
+size=128
+echo "running transpose..."
+while [ $i -lt 7 ]
+do
+  build/eigen_decomp -t $size >> trans_out.dat
+  size=$(( $size * 2 ))
+  i=$(( $i + 1 ))
+done
+echo "done!"

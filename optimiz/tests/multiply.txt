@@ -1,0 +1,41 @@
+title multiply by x. shen modified t. o'neil 4.1.2013
+var
+   list[100] A
+   list[100] B
+   int i
+   int result
+   int size
+   int t0
+   int t1
+   int t2
+   int t3
+   int t4
+begin
+   prompt "Please give the size of the vectors to be multiplied: "
+   let size = -1
+   while (size < 0)
+      input size
+      if (size >= 0) then
+         if (size <= 100) then goto break1
+      prompt "I need a non-negative number less than 100: "
+      let size = -1
+   endwhile
+   label break1
+   let A[0] = 0
+   for i = 1 to size - 1
+      let t1 = i - 1
+      let t2 = i * i
+      let A[i] = A[t1] + t2
+   endfor
+   let B[0] = 0
+   for i = 1 to size - 1
+      let t3 = i - 1
+      let B[i] = i + B[t3]
+   endfor
+   let result = 0
+   for i = 0 to size - 1
+      let t4 = A[i] * B[i]
+      let result = result + t4
+   endfor
+   prompt "0\n"
+end
