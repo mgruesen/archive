@@ -1,5 +1,5 @@
 # Archive
-An archive repo for past work
+An archive repo for course work from my undergrad and grad schooling. Below is a listing of the courses along with the projects found in this report.
 
 ##Graphics
 - OpenGL
@@ -7,18 +7,15 @@ An archive repo for past work
 - Unity3D
 
 ##Visualization
-- VTK
+- Visualization Toolkit (VTK)
 
-##Intro to Parallel Processing - Final Project
-Parallel N-Body implementations using OpenMP in C++
+##Intro to Parallel Processing
+* Final Project - Parallel N-Body implementations using OpenMP in C++
 
-##Parallel Processing - Final Project
-Parallel Quick Hull implementations using GPGPUs with CUDA
+##Parallel Processing
+* Final Project - Parallel Quick Hull implementations using GPGPUs with CUDA
 
 ##Advanced Algorithms
-- Breadth-First Search, Edmonds-Karp, Max Flow/Min Cut for Flow Networks
-- Singular Value Decomposition, Principal Component Analysis for Image Compression
-- Parallel Matrix Operations and Eigendecomposition
-
-##Optimizations for Parallel Compilers
-
+* Breadth-First Search, Edmonds-Karp, Max Flow/Min Cut for Flow Networks
+* Singular Value Decomposition, Principal Component Analysis for Image Compression
+* Parallel Matrix Operations and Eigendecomposition
